@@ -4,7 +4,7 @@ img1 = 0
 img2 = 0
 img3 = 0
 def setup():
-    global a,img, img1, img2, img3
+    global a,img, img1, img2, img3 
     size(600,450)
     img = loadImage("s.jpg")
     img1 = loadImage("hz.jpg")
@@ -13,8 +13,7 @@ def setup():
 
     
 def draw():
-    global img,img1,img2,img3, a
-    fill(100)
+    global img,img1,img2,img3, a 
     rect (540,240,200,170)
 
     
@@ -27,9 +26,9 @@ def draw():
     fill(50,214,78)
     rect(550,350,60,50)
     
-    image(img3,400,100,100,200)
-
-
+    image(img3,400,100,100,150)
+    
+    
 def mouseClicked():
     
     global a,img, img1 , img2
